@@ -1,0 +1,35 @@
+.header {
+    //border: 2px solid magenta;//
+    display: flex;
+    align-items: center;
+    padding: 1.5rem;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.header__menu_and_h1{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    //border: 2px solid magenta;//
+}
+
+.header__cart_and_profile_photo{
+    display: flex;
+    align-items: center;
+    //border: 2px solid magenta;//
+}
+
+.header__profile_photo{
+    width: 30px;
+    height: 30px;
+}
+
+.header__menu{
+    width: 25px;
+    height: 25px;
+}
+
+.header__cart{
+    margin-right: 2rem;
+}
