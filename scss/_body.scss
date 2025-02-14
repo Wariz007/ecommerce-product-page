@@ -1,3 +1,87 @@
-.body__image{
-    border: 2px solid magenta;
+.body__content{
+    padding: 1.5rem;
+}
+
+.body__tag {
+    font-weight: 600;
+    opacity: 0.7;
+}
+
+.body__h1 {
+    margin: 1rem 0;
+}
+
+.body__paragraph {
+    line-height: 1.6;
+    opacity: 0.5;
+}
+
+.body__pricing__details {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 1.5rem 0;
+}
+
+.body__price__and__discount{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.body__price {
+    font-size: 2.5rem;
+    font-weight: 700;
+}
+
+.body__discount {
+    background-color: black;
+    color: white;
+    padding: 0.5rem 1.3rem;
+    border-radius: 5px;
+}
+
+.body__original__price {
+    text-decoration: line-through;
+    font-weight: 500;
+}
+
+.body__merch__count__container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    font-size: 2rem;
+    background-color: $light-grayish-blue;
+    border-radius: 5px;
+    margin: 2rem 0;
+}
+
+.sign_styles {
+    color: $orange;
+    font-weight: 600;
+    border: none;
+    padding: 1rem 1.5rem;
+    font-size: 2rem;
+    background-color: transparent;
+}
+
+.body__add_to_cart_container {
+    display: flex;
+    padding: 1.5rem;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    background-color: $orange;
+    border-radius: 5px;
+    width: 100%;
+    border: 0;
+    font-size: 1.5rem;
+    font-weight: 600;
+    box-shadow: 2px 15px 10px 2px $pale-orange;
+}
+
+.body__cart {
+    width: 20px;
+    height: 20px;
 }

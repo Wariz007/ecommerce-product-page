@@ -13,7 +13,9 @@
 <body>
   <header class="header">
     <div class="header__menu_and_h1">
-      <img src="images/icon-menu.svg" alt="menu button" class="header__menu">
+      <button class="header__menu__button">
+        <img src="images/icon-menu.svg" alt="menu button" class="header__menu">
+      </button>
       <h1 class="header__h1">sneakers</h1>
     </div>
 
@@ -25,6 +27,36 @@
 
   <main class="body">
     <img src="images/image-product-1.jpg" alt="merchandise" class="body__image">
+
+    <div class="body__content">
+      <p class="body__tag">Sneaker Company</p>
+  
+      <h1 class="body__h1">Fall Limited Edition Sneakers</h1>
+  
+      <p class="body__paragraph">
+        These low-profile sneakers are your perfect casual wear companion. Featuring a 
+        durable rubber outer sole, they’ll withstand everything the weather can offer.
+      </p>
+      
+      <div class="body__pricing__details">
+        <div class="body__price__and__discount">
+          <p class="body__price">$125.00</p>
+          <p class="body__discount">50%</p>
+        </div>
+        <p class="body__original__price">$250.00</p>
+      </div>
+
+      <div class="body__merch__count__container">
+        <button class="body__minus__sign sign_styles"><p>-</p></button>
+        <p class="body__count">0</p>
+        <button class="body__plus__sign sign_styles"><p>+</p></button>
+      </div>
+
+      <button class="body__add_to_cart_container">
+        <img src="images/icon-cart.svg" alt="cart icon" class="body__cart">
+        <p class="body__cart__text">Add to cart</p>
+      </button>
+    </div>
   </main>
   
   

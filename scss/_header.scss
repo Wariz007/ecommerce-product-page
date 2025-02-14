@@ -1,5 +1,4 @@
 .header {
-    //border: 2px solid magenta;//
     display: flex;
     align-items: center;
     padding: 1.5rem;
@@ -11,18 +10,21 @@
     display: flex;
     align-items: center;
     gap: 20px;
-    //border: 2px solid magenta;//
 }
 
 .header__cart_and_profile_photo{
     display: flex;
     align-items: center;
-    //border: 2px solid magenta;//
 }
 
 .header__profile_photo{
     width: 30px;
     height: 30px;
+}
+
+.header__menu__button{
+    background-color: transparent;
+    border: 0;
 }
 
 .header__menu{
