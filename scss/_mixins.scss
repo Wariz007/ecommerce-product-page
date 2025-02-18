@@ -1,0 +1,15 @@
+@mixin hide {
+    display: none;
+}
+
+@mixin show {
+    display: block;
+}
+
+.show {
+    @include show;
+}
+
+.hide {
+    @include hide;
+}
