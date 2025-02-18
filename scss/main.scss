@@ -2,7 +2,8 @@
 @import 'header';
 @import 'body';
 @import 'sidebar-items';
-@import 'header&body';
+@import 'overlay';
+@import 'cartBasket';
 
 body{
     position: relative;

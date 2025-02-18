@@ -1,0 +1,46 @@
+.body__cart__basket {
+    padding: 1rem 1.5rem;
+    margin: 1rem;
+    border-radius: 5px;
+    position: absolute;
+    background-color: $white;
+    display: none;
+}
+
+.body__cart__basket__tag {
+    font-weight: 600;
+    margin-top: 1rem;
+}
+
+.body__cart__basket__image__and__description {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 3rem 0 2rem 0;
+    gap: 15px;
+    line-height: 1.5;
+}
+
+.cart__basket__image {
+    width: 60px;
+    border-radius: 5px;
+}
+
+.delete__icon {
+    width: 20px;
+}
+
+.body__cart__basket__button {
+    width: 100%;
+    font-size: 2rem;
+    padding: 0.8rem;
+    border: none;
+    border-radius: 5px;
+    background-color: $orange;
+    font-weight: 500;
+    margin-bottom: 1.5rem;
+}
+
+.basket__total__price {
+    font-weight: 600;
+}

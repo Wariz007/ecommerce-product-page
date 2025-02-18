@@ -64,6 +64,7 @@
     padding: 1rem 1.5rem;
     font-size: 2rem;
     background-color: transparent;
+    cursor: pointer;
 }
 
 .body__add_to_cart_container {
@@ -79,6 +80,10 @@
     font-size: 1.5rem;
     font-weight: 600;
     box-shadow: 2px 15px 10px 2px $pale-orange;
+}
+
+.body__add_to_cart_container:hover {
+    background-color: hsl(26, 82%, 60%);
 }
 
 .body__cart {

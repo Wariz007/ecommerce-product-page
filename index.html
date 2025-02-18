@@ -21,12 +21,28 @@
     </div>
 
     <div class="header__cart_and_profile_photo">
+      <p class="header__cart__counter">0</p>
       <img src="images/icon-cart.svg" alt="cart icon" class="header__cart">
       <img src="images/image-avatar.png" alt="" class="header__profile_photo">
     </div>
   </header>
 
   <main class="body">
+    <div class="body__cart__basket">
+      <p class="body__cart__basket__tag">Cart</p>
+      <div class="body__cart__basket__details">
+        <div class="body__cart__basket__image__and__description">
+          <img src="images/image-product-1.jpg" alt="product image" class="cart__basket__image">
+          <p class="description">
+            Fall Limited Edition Sneakers $125.00 x 3 <span class="basket__total__price">$375.000</span>
+          </p>
+          <img src="images/icon-delete.svg" alt="delete icon" class="delete__icon">
+        </div>
+        <button class="body__cart__basket__button">
+          Checkout
+        </button>
+      </div>
+    </div>
     <img src="images/image-product-1.jpg" alt="merchandise" class="body__image">
 
     <div class="body__content">
@@ -49,7 +65,7 @@
 
       <div class="body__merch__count__container">
         <button class="body__minus__sign sign_styles"><p>-</p></button>
-        <p class="body__count">0</p>
+        <p class="body__count" id="counter">0</p>
         <button class="body__plus__sign sign_styles"><p>+</p></button>
       </div>
 

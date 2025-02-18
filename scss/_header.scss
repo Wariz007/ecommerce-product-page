@@ -4,6 +4,7 @@
     padding: 1.5rem;
     width: 100%;
     justify-content: space-between;
+    position: relative;
 }
 
 .header__menu_and_h1{
@@ -34,4 +35,16 @@
 
 .header__cart{
     margin-right: 2rem;
+}
+
+.header__cart__counter {
+    padding: 0.5rem 0.7rem;
+    background-color: $orange;
+    border-radius: 20px;
+    color: $white;
+    font-size: 0.9rem;
+    position: absolute;
+    top: 10px;
+    right: 55px;
+    display: none;
 }
