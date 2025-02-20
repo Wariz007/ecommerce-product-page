@@ -1,3 +1,12 @@
+.body {
+    @include respond-to(medium) {
+        display: flex;
+        max-width: 900px;
+        gap: 50px;
+    }
+}
+
+
 .body__content {
     padding: 1.5rem;
 }
@@ -80,6 +89,7 @@
     font-size: 1.5rem;
     font-weight: 600;
     box-shadow: 2px 15px 10px 2px $pale-orange;
+    cursor: pointer;
 }
 
 .body__add_to_cart_container:hover {
@@ -89,4 +99,8 @@
 .body__cart {
     width: 20px;
     height: 20px;
+}
+
+.body__image {
+    border-radius: 5px;
 }

@@ -6,6 +6,14 @@
     display: block;
 }
 
+@mixin respond-to($breakpoint) {
+    @if $breakpoint == medium {
+        @media (min-width: 1000px) {@content;}
+    } @else if $breakpoint == small {
+        @media (max-width: 990px) {@content; }
+    }
+}
+
 .show {
     @include show;
 }

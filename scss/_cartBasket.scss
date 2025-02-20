@@ -39,8 +39,19 @@
     background-color: $orange;
     font-weight: 500;
     margin-bottom: 1.5rem;
+    cursor: pointer;
+}
+
+.body__cart__basket__button:hover {
+    background-color: hsl(26, 82%, 60%);
 }
 
 .basket__total__price {
     font-weight: 600;
+} 
+
+.basket__detail__two {
+    font-weight: bold;
+    opacity: 0.5;
+    text-align: center;
 }
