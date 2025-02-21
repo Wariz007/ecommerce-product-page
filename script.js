@@ -33,9 +33,11 @@ minusBtn.addEventListener('click', () => {
         counter = 0;
     }
     counterDisplay.textContent = counter;
-    cartCounterDisplay.style.display = 'block';
-    cartCounter--;
+    if(cartCounter > 0){
+        cartCounter--;
+    }
     cartCounterDisplay.textContent = cartCounter;
+    cartCounterDisplay.style.display = 'block';
 })
 plusBtn.addEventListener('click', () => {
     counter++;
