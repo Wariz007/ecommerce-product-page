@@ -48,5 +48,5 @@ plusBtn.addEventListener('click', () => {
 })
 
 checkoutBtn.addEventListener('click', () => {
-    checkoutBasket.style.display = 'block';
+    checkoutBasket.classList.toggle('show');
 })

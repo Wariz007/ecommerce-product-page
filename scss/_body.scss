@@ -132,7 +132,42 @@
     height: 20px;
 }
 
-.body__image {
+
+.body__images__preview__container {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 2rem;
+
+    @include respond-to(small) {
+        display: none;
+    }
+}
+
+.preview__box {
+    width: 80px;
     border-radius: 5px;
 }
 
+.preview__box__buttons {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+.preview__box__buttons:hover {
+    border: 2px solid $orange;
+    border-radius: 5px;
+}
+
+.preview__box__buttons:hover .preview__box {
+    opacity: 0.5;
+}
+
+
+.body__image {
+    border-radius: 5px;
+
+    @include respond-to(medium) {
+        height: 370px;
+    }
+}

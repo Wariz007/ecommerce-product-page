@@ -1,10 +1,11 @@
 .body__cart__basket {
+    max-width: 33rem;
     padding: 1rem 1.5rem;
     margin: 1rem;
     border-radius: 5px;
     position: absolute;
     background-color: $white;
-    display: none;
+    @include hide;
 }
 
 .body__cart__basket__tag {
@@ -55,3 +56,4 @@
     opacity: 0.5;
     text-align: center;
 }
+

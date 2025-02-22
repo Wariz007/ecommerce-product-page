@@ -3,7 +3,7 @@
 }
 
 @mixin show {
-    display: block;
+    display: block !important;
 }
 
 @mixin respond-to($breakpoint) {
