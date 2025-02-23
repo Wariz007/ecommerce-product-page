@@ -1,11 +1,21 @@
 .body__cart__basket {
     max-width: 33rem;
+    width: 360px;
+    height: 220px;
     padding: 1rem 1.5rem;
     margin: 1rem;
     border-radius: 5px;
     position: absolute;
     background-color: $white;
     @include hide;
+    z-index: 2;
+    box-shadow: -8px 10px 15px -1px rgba(0, 0, 0, 0.345);
+
+    @include respond-to(medium) {
+        position: absolute;
+        right: 30px;
+        top: 81px;
+    }
 }
 
 .body__cart__basket__tag {
@@ -13,13 +23,33 @@
     margin-top: 1rem;
 }
 
+.body__cart__basket__details {
+    height: 80%;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
 .body__cart__basket__image__and__description {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 3rem 0 2rem 0;
+    margin-bottom: 1rem;
     gap: 15px;
     line-height: 1.5;
+}
+
+.basket__detail__two {
+    font-weight: bold;
+    opacity: 0.5;
+    text-align: center;
+    display: none;
+}
+
+.basket__details__and__button {
+    margin-top: 1.5rem;
 }
 
 .cart__basket__image {
@@ -33,7 +63,7 @@
 
 .body__cart__basket__button {
     width: 100%;
-    font-size: 2rem;
+    font-size: 1.5rem;
     padding: 0.8rem;
     border: none;
     border-radius: 5px;
@@ -50,10 +80,3 @@
 .basket__total__price {
     font-weight: 600;
 } 
-
-.basket__detail__two {
-    font-weight: bold;
-    opacity: 0.5;
-    text-align: center;
-}
-
