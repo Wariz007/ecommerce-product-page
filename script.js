@@ -16,6 +16,9 @@ const checkoutBtn2 = document.querySelector('.body__cart__basket__button');
 const cartBasketDetails = document.querySelector('.basket__details__and__button');
 const cartBasketDetail2 = document.querySelector('.basket__detail__two');
 
+const numberOfItems = document.querySelector('.number__of__item');
+const basketTotalPrice = document.querySelector('.basket__total__price');
+
 //activate burger button
 burgerBtn.addEventListener('click', () => {
     sidebar.style.display = 'block';
@@ -56,6 +59,7 @@ plusBtn.addEventListener('click', () => {
 
 checkoutBtn.addEventListener('click', () => {
     checkoutBasket.classList.toggle('show');
+    let followCount = getfollowCount();
 
     if(getfollowCount() === 0) {
         cartBasketDetails.style.display = 'none';
@@ -64,4 +68,7 @@ checkoutBtn.addEventListener('click', () => {
         cartBasketDetails.style.display = 'block';
         cartBasketDetail2.style.display = 'none';
     }
+
+    numberOfItems.textContent = `${followCount}`;
+    basketTotalPrice.textContent = `$${followCount * 125}`;;
 })

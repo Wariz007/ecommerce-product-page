@@ -101,6 +101,10 @@
     cursor: pointer;
 }
 
+.sign_styles:hover {
+    color: $pale-orange;
+}
+
 .body__add_to_cart_container {
     display: flex;
     padding: 1.5rem;
