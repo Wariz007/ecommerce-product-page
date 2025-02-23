@@ -70,5 +70,5 @@ checkoutBtn.addEventListener('click', () => {
     }
 
     numberOfItems.textContent = `${followCount}`;
-    basketTotalPrice.textContent = `$${followCount * 125}`;;
+    basketTotalPrice.textContent = `$${followCount * 125}`;
 })
