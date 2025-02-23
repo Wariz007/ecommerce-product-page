@@ -49,6 +49,7 @@ img {
 .header__cart_and_profile_photo {
   display: flex;
   align-items: center;
+  position: relative;
 }
 
 .header__profile_photo {
@@ -89,8 +90,8 @@ img {
   color: hsl(0, 0%, 100%);
   font-size: 0.9rem;
   position: absolute;
-  top: 10px;
-  right: 55px;
+  top: -18px;
+  right: 63px;
   display: none;
 }
 
